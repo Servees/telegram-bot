@@ -3,7 +3,7 @@ import os
 import random
 from telegram.ext import Application, MessageHandler, filters
 
-TOKEN = os.environ.get "8507674979:AAF7VR6K1fxI1FBvxXcoYyH1-Et2eB3CgNQ"
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 # ====== ОСКОРБЛЕНИЯ ======
 INSULTS = [
